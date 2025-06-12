@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <title>图片水印</title>
+  </head>
+  <body>
+    <img
+      class="image-watermark"
+      src="image.jpg"
+      style="width: 200px; height: 100px"
+      alt=""
+    />
+    <img class="image-watermark2" src="image2.jpg" alt="" />
+
+    <button onclick="addImage()">添加图片</button>
+
+    <script src="image-watermark.js"></script>
+
+    <script>
+      addImageWatermarkInScope('test')
+
+      function addImage() {
+        const image = document.createElement('img')
+        image.src = 'image.jpg'
+        document.body.appendChild(image)
+      }
+    </script>
+  </body>
+</html>
