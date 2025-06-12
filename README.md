@@ -12,3 +12,6 @@ addImageWatermarkInScope('test')
 
 ## 示例
 [index.html](https://github.com/wanglei1020/image-watermark/blob/master/index.html)
+
+## 鸣谢
+[imgWaterMark](https://github.com/zhan-hc/imgWaterMark)
